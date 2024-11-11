@@ -10,6 +10,9 @@ module.exports = {
       backgroundImage: {
         "header-bg": "url('/imagenes/fondoHeader.jpg')",
       },
+      colors: {
+        tarjeta: "#4d4545",
+      },
     },
   },
 };
