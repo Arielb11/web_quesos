@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
 const Tarjeta3 = () => {
   return (
     <>
@@ -7,14 +7,36 @@ const Tarjeta3 = () => {
         <div class="container mx-auto py-10 flex justify-center">
           <div class="bg-tarjeta flex  rounded-3xl border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
             <div class=" mx-auto flex flex-wrap">
-              <img
-                class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-                src="/imagenes/mozzarella.jpg"
-                alt=""
-              />
+              <CCarousel
+                controls
+                indicators
+                className="lg:w-2/4 w-full lg:h-auto h-64"
+              >
+                <CCarouselItem>
+                  <CImage
+                    className="d-block w-100"
+                    src={"/imagenes/muzza1.png"}
+                    alt="slide 1"
+                  />
+                </CCarouselItem>
+                <CCarouselItem>
+                  <CImage
+                    className="d-block "
+                    src={"/imagenes/mozzarella.jpg"}
+                    alt="slide 2"
+                  />
+                </CCarouselItem>
+                <CCarouselItem>
+                  <CImage
+                    className="d-block "
+                    src={"/imagenes/mozzarella.jpg"}
+                    alt="slide 3"
+                  />
+                </CCarouselItem>
+              </CCarousel>
               <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                 <h1 class="text-gray-100 text-3xl title-font font-medium mb-1">
-                  Queso Mozzarella
+                  Ricota
                 </h1>
 
                 <p class="leading-relaxed">
@@ -27,7 +49,7 @@ const Tarjeta3 = () => {
                     Por Mayor:
                   </span>
                   <span class="title-font font-medium text-xl text-white">
-                    $5824.00
+                    $2000 x Kg.
                   </span>
                 </div>
                 <div className="flex mt-4">
@@ -36,12 +58,15 @@ const Tarjeta3 = () => {
                   </span>
 
                   <span class="title-font font-medium text-xl text-white">
-                    $5418.00
+                    $2300 x Kg.
                   </span>
                 </div>
-                <div className="flex justify-center mt-2  ">
-                  <Link to="https://wa.me/+543541540017?text=Hola! Estoy visitando su página web y me gustaría obtener más información sobre el viaje a Brasil. Gracias.">
-                    <button className="flex items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none focus:ring focus:ring-green-300 focus:ring-opacity-80">
+                <div className="flex justify-center mt-4  ">
+                  <Link
+                    className="no-underline text-inherit"
+                    to="https://wa.me/+5493445442291?text=Hola! Estoy visitando su página web y estoy interesado en comprar Ricota. Gracias."
+                  >
+                    <button className=" flex items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none focus:ring focus:ring-green-300 focus:ring-opacity-80">
                       <svg
                         className="w-4 h-4 "
                         fill="currentColor"

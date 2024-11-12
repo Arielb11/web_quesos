@@ -1,6 +1,7 @@
 import Home from "./Pages/home";
 import { BrowserRouter, Router, Link, Routes, Route } from "react-router-dom";
 import "./index.css";
+import "@coreui/coreui/dist/css/coreui.min.css";
 
 function App() {
   return (
