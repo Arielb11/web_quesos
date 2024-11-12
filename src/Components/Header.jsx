@@ -1,13 +1,15 @@
 const Header = () => {
   return (
     <>
-      <header style={{ backgroundImage: "url('/imagenes/fondoHeader7.jpg')" }}>
+      <header style={{ backgroundImage: "url('/imagenes/5.png')" }}>
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <img src="/imagenes/logo.png" className="w-42 h-20" alt="Logo" />
           </a>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <h1 className="font-titulo text-7xl text-white">La Maciaense</h1>
+            <h1 className=" mb-4 font-titulo text-6xl text-white">
+              La Maciaense
+            </h1>
           </nav>
           <button class="relative px-4 py-2 bg-yellow-400 rounded-lg shadow-md hover:bg-yellow-500 focus:outline-none">
             <div class="absolute inset-0 bg-yellow-400 rounded-lg shadow-md transform rotate-2"></div>
