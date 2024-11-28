@@ -23,14 +23,14 @@ const Tarjeta1 = () => {
                 <CCarouselItem>
                   <CImage
                     className="d-block "
-                    src={"/imagenes/muzza6.png"}
+                    src={"/imagenes/muzza1.png"}
                     alt="slide 2"
                   />
                 </CCarouselItem>
                 <CCarouselItem>
                   <CImage
                     className="d-block "
-                    src={"/imagenes/mozzarella.jpg"}
+                    src={"/imagenes/muzza1.png"}
                     alt="slide 3"
                   />
                 </CCarouselItem>
