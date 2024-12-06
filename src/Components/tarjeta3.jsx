@@ -8,29 +8,14 @@ const Tarjeta3 = () => {
           <div class="bg-tarjeta flex  rounded-3xl border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
             <div class=" mx-auto flex flex-wrap">
               <CCarousel
-                controls
                 indicators
                 className="lg:w-2/4 w-full lg:h-auto h-64"
               >
                 <CCarouselItem>
                   <CImage
                     className="d-block w-100"
-                    src={"/imagenes/muzza1.png"}
+                    src={"/imagenes/ricota.png"}
                     alt="slide 1"
-                  />
-                </CCarouselItem>
-                <CCarouselItem>
-                  <CImage
-                    className="d-block "
-                    src={"/imagenes/muzza1.png"}
-                    alt="slide 2"
-                  />
-                </CCarouselItem>
-                <CCarouselItem>
-                  <CImage
-                    className="d-block "
-                    src={"/imagenes/muzza1.png"}
-                    alt="slide 3"
                   />
                 </CCarouselItem>
               </CCarousel>
@@ -40,27 +25,10 @@ const Tarjeta3 = () => {
                 </h1>
 
                 <p class="leading-relaxed">
-                  Fam locavore kickstarter distillery. Mixtape chillwave tumeric
-                  sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
+                La ricota es un queso fresco que se destaca por su color blanco puro, su textura suave y ligeramente granulada. Su elaboración artesanal resalta su frescura y autenticidad, con un sabor delicado y apenas dulce que encanta a los paladares más exigentes. Es un queso bajo en grasas, rico en proteínas y fácil de digerir, ideal para quienes buscan un alimento natural y nutritivo. Gracias a su suavidad y frescura, la ricota es una joya entre los quesos frescos.
                 </p>
                 <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"></div>
-                <div class="flex">
-                  <span class="mr-2 title-font font-medium text-xl text-white">
-                    Por Mayor:
-                  </span>
-                  <span class="title-font font-medium text-xl text-white">
-                    $2000 x Kg.
-                  </span>
-                </div>
-                <div className="flex mt-4">
-                  <span class="mr-2 title-font font-medium text-xl text-white">
-                    Por Menor:
-                  </span>
-
-                  <span class="title-font font-medium text-xl text-white">
-                    $2300 x Kg.
-                  </span>
-                </div>
+                
                 <div className="flex justify-center mt-4  ">
                   <Link
                     className="no-underline text-inherit"

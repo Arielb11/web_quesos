@@ -8,29 +8,14 @@ const Tarjeta2 = () => {
           <div class="bg-tarjeta flex  rounded-3xl border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
             <div class=" mx-auto flex flex-wrap">
               <CCarousel
-                controls
                 indicators
                 className="lg:w-2/4 w-full lg:h-auto h-64"
               >
                 <CCarouselItem>
                   <CImage
                     className="d-block w-100"
-                    src={"/imagenes/muzza1.png"}
+                    src={"/imagenes/sardo.png"}
                     alt="slide 1"
-                  />
-                </CCarouselItem>
-                <CCarouselItem>
-                  <CImage
-                    className="d-block "
-                    src={"/imagenes/muzza1.png"}
-                    alt="slide 2"
-                  />
-                </CCarouselItem>
-                <CCarouselItem>
-                  <CImage
-                    className="d-block "
-                    src={"/imagenes/muzza1.png"}
-                    alt="slide 3"
                   />
                 </CCarouselItem>
               </CCarousel>
@@ -40,27 +25,10 @@ const Tarjeta2 = () => {
                 </h1>
 
                 <p class="leading-relaxed">
-                  Fam locavore kickstarter distillery. Mixtape chillwave tumeric
-                  sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
+                El queso Sardo es un queso madurado, de pasta dura y firme, con un color amarillo pálido que refleja su cuidadoso proceso de curado. Su aroma es robusto y su sabor es marcado, con un equilibrio entre lo salado y lo especiado que lo hace inconfundible. Tiene una textura seca pero quebradiza, característica de los quesos añejos, y su elaboración respeta las tradiciones que le dan ese toque auténtico y artesanal. Es un queso pensado para los amantes de los sabores intensos y de calidad.
                 </p>
                 <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"></div>
-                <div class="flex">
-                  <span class="mr-2 title-font font-medium text-xl text-white">
-                    Por Mayor:
-                  </span>
-                  <span class="title-font font-medium text-xl text-white">
-                    $6800 x Kg.
-                  </span>
-                </div>
-                <div className="flex mt-4">
-                  <span class="mr-2 title-font font-medium text-xl text-white">
-                    Por Menor:
-                  </span>
-
-                  <span class="title-font font-medium text-xl text-white">
-                    $7000 x Kg.
-                  </span>
-                </div>
+                
                 <div className="flex justify-center mt-4  ">
                   <Link
                     className="no-underline text-inherit"
