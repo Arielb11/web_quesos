@@ -14,7 +14,7 @@ const Header = () => {
           </nav>
           <Link
             className="no-underline text-inherit"
-            to="https://wa.me/+5493445442291?text=Hola! Estoy visitando su página web y estoy interesado en "
+            to="https://wa.me/+5493445404262?text=Hola! Estoy visitando su página web y estoy interesado en "
           >
             <button class="relative px-4 py-2 bg-yellow-400 rounded-lg shadow-md hover:bg-yellow-500 focus:outline-none">
               <div class="absolute inset-0 bg-yellow-400 rounded-lg shadow-md transform rotate-2"></div>
