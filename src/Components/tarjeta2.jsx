@@ -25,7 +25,8 @@ const Tarjeta2 = () => {
                 </h1>
 
                 <p class="leading-relaxed">
-                El queso Sardo es un queso madurado, de pasta dura y firme, con un color amarillo pálido que refleja su cuidadoso proceso de curado. Su aroma es robusto y su sabor es marcado, con un equilibrio entre lo salado y lo especiado que lo hace inconfundible. Tiene una textura seca pero quebradiza, característica de los quesos añejos, y su elaboración respeta las tradiciones que le dan ese toque auténtico y artesanal. Es un queso pensado para los amantes de los sabores intensos y de calidad.
+                Queso duro, artesanal, elaborado en la región. Esencial para las pastas. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       
+                                           
                 </p>
                 <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"></div>
                 

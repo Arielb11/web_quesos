@@ -25,7 +25,7 @@ const Tarjeta3 = () => {
                 </h1>
 
                 <p class="leading-relaxed">
-                La ricota es un queso fresco que se destaca por su color blanco puro, su textura suave y ligeramente granulada. Su elaboración artesanal resalta su frescura y autenticidad, con un sabor delicado y apenas dulce que encanta a los paladares más exigentes. Es un queso bajo en grasas, rico en proteínas y fácil de digerir, ideal para quienes buscan un alimento natural y nutritivo. Gracias a su suavidad y frescura, la ricota es una joya entre los quesos frescos.
+                Elaborado con suero lácteo, la ricota contiene un sabor y firmeza necesaria para la producción de pastas y pastelería.                
                 </p>
                 <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"></div>
                 

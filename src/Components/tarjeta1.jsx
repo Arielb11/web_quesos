@@ -27,7 +27,7 @@ const Tarjeta1 = () => {
                 </h1>
 
                 <p class="leading-relaxed">
-                La muzzarella es un queso fresco hilado, de textura elástica y suave al tacto. Su color blanco marfil y su aroma delicado denotan su frescura, mientras que su sabor es ligero, lácteo y ligeramente salado. Elaborada con técnicas artesanales, la muzzarella tiene una estructura fibrosa que le permite fundirse de manera única, conservando su esencia. Es un queso con personalidad, que combina la tradición quesera con una calidad inigualable en cada pieza.
+                Queso hilado, elaborado a base de masa madre producida en su propio establecimiento. Perfecta para (Pizzas y rellenos). Hilado y sabor. 
                 </p>
                 <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"></div>
                
