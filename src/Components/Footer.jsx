@@ -19,9 +19,9 @@ const Footer = () => {
               </div>
               <Link
                 className="no-underline text-inherit"
-                to="https://wa.me/+5493445442291?text=Hola! Estoy visitando su página web y estoy interesado en "
+                to="https://wa.me/+5493445404262?text=Hola! Estoy visitando su página web y estoy interesado en "
               >
-                <div className=" text-m">+54 9 3445 44-2291</div>
+                <div className=" text-m">+54 9 3445 40‑4262</div>
               </Link>
             </div>
             <div className="flex ">

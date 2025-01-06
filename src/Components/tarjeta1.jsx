@@ -9,29 +9,15 @@ const Tarjeta1 = () => {
           <div class="bg-tarjeta flex  rounded-3xl border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
             <div class=" mx-auto flex flex-wrap">
               <CCarousel
-                controls
+                
                 indicators
                 className="lg:w-2/4 w-full lg:h-auto h-64"
               >
                 <CCarouselItem>
                   <CImage
                     className="d-block w-100"
-                    src={"/imagenes/muzza1.png"}
+                    src={"/imagenes/muzza.png"}
                     alt="slide 1"
-                  />
-                </CCarouselItem>
-                <CCarouselItem>
-                  <CImage
-                    className="d-block "
-                    src={"/imagenes/muzza6.png"}
-                    alt="slide 2"
-                  />
-                </CCarouselItem>
-                <CCarouselItem>
-                  <CImage
-                    className="d-block "
-                    src={"/imagenes/mozzarella.jpg"}
-                    alt="slide 3"
                   />
                 </CCarouselItem>
               </CCarousel>
@@ -41,31 +27,14 @@ const Tarjeta1 = () => {
                 </h1>
 
                 <p class="leading-relaxed">
-                  Fam locavore kickstarter distillery. Mixtape chillwave tumeric
-                  sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
+                Queso hilado, elaborado a base de masa madre producida en su propio establecimiento. Perfecta para (Pizzas y rellenos). Hilado y sabor. 
                 </p>
                 <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"></div>
-                <div class="flex">
-                  <span class="mr-2 title-font font-medium text-xl text-white">
-                    Por Mayor:
-                  </span>
-                  <span class="title-font font-medium text-xl text-white">
-                    $5800
-                  </span>
-                </div>
-                <div className="flex mt-4">
-                  <span class="mr-2 title-font font-medium text-xl text-white">
-                    Por Menor:
-                  </span>
-
-                  <span class="title-font font-medium text-xl text-white">
-                    $6100
-                  </span>
-                </div>
+               
                 <div className="flex justify-center mt-4  ">
                   <Link
                     className="no-underline text-inherit"
-                    to="https://wa.me/+5493445442291?text=Hola! Estoy visitando su página web y estoy interesado en comprar Queso Muzzarella. Gracias."
+                    to="https://wa.me/+5493445404262?text=Hola! Estoy visitando su página web y estoy interesado en comprar Queso Muzzarella. Gracias."
                   >
                     <button className=" flex items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none focus:ring focus:ring-green-300 focus:ring-opacity-80">
                       <svg
