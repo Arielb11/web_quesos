@@ -8,19 +8,11 @@ const Tarjeta1 = () => {
         <div class="container mx-auto py-10 flex justify-center">
           <div class="bg-tarjeta flex  rounded-3xl border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
             <div class=" mx-auto flex flex-wrap">
-              <CCarousel
-                
-                indicators
-                className="lg:w-2/4 w-full lg:h-auto h-64"
-              >
-                <CCarouselItem>
-                  <CImage
-                    className="d-block w-100"
-                    src={"/imagenes/muzza.png"}
-                    alt="slide 1"
-                  />
-                </CCarouselItem>
-              </CCarousel>
+              <img
+                className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+                src={"/imagenes/muzza.png"}
+                alt="imgmuzza">
+              </img>
               <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                 <h1 class="text-gray-100 text-3xl title-font font-medium mb-1">
                   Queso Mozzarella

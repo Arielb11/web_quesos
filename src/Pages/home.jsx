@@ -16,7 +16,7 @@ const Home = () => {
       >
         <Subseccion />
         <Tarjeta1 />
-        <Tarjeta2 />
+        {/*<Tarjeta2 />   Queso sardo sacado!!!*/}
         <Tarjeta3 />
       </div>
       <Footer />
